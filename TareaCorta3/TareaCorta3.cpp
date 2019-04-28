@@ -1,12 +1,21 @@
-// TareaCorta3.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include "pch.h"
 #include <iostream>
+#include "ArbolRN.cpp"
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	link p = nullptr;
+	RBinsert(p, 6);
+	RBinsert(p, 10);
+	RBinsert(p, 18);
+	RBinsert(p, 25);
+	RBinsert(p, 30);
+	RBinsert(p, 35);
+	cout << p;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
