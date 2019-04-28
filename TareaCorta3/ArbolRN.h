@@ -1,5 +1,4 @@
-
-#include "pch.h"
+#pragma once
 #include <iostream>
 #include <string>
 
@@ -84,6 +83,12 @@ void node::show(int nivel) {
 		for (int i = 0; i < 3 * nivel; i++) cout << " ";
 		cout << "]";
 	}
+}
+
+ostream& operator <<(ostream& os, link h) {
+	h->show(0);
+	cout << "\n";
+	return os;
 }
 
 void rotateR(link &h) {

@@ -1,7 +1,6 @@
-
 #include "pch.h"
 #include <iostream>
-#include "ArbolRN.cpp"
+#include "ArbolRN.h"
 
 using namespace std;
 
