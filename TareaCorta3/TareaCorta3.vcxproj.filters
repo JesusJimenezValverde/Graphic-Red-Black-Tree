@@ -26,5 +26,11 @@
     <ClCompile Include="TareaCorta3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ArbolRN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Permutacion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
