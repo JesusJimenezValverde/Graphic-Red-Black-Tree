@@ -8,16 +8,22 @@ using namespace std;
 int main()
 {
 	link p = nullptr;
-	RBinsert(p, 6);
-	RBinsert(p, 10);
-	RBinsert(p, 18);
-	RBinsert(p, 25);
-	RBinsert(p, 30);
-	RBinsert(p, 35);
+	//RBinsert(p, 6);
+	//RBinsert(p, 10);
+	//RBinsert(p, 18);
+	//RBinsert(p, 25);
+	//RBinsert(p, 30);
+	//RBinsert(p, 35);
+	
+
+	int num = 5;
+	int * numeros = genere(num);
+
+	for (int i = 0; i < num; i++) {
+		RBinsert(p, numeros[i]);
+		cout << numeros[i] << endl;
+	}
 	cout << p;
-
-	genere(50);
-
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
