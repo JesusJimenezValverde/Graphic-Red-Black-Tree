@@ -1,6 +1,7 @@
 #include "pch.h"
 #include <iostream>
 #include "ArbolRN.h"
+#include "Permutacion.h"
 
 using namespace std;
 
@@ -14,6 +15,8 @@ int main()
 	RBinsert(p, 30);
 	RBinsert(p, 35);
 	cout << p;
+
+	genere(50);
 
 }
 
